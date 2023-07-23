@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Search Engine</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input
+          type="text"
+          id="search-item"
+          placeholder="Search Products"
+          onkeyup="search()"
+        />
+      </form>
+
+      <div class="product-list" id="product-list">
+        <div class="product">
+          <img src="images/t1.jpeg" alt="" />
+          <div class="details">
+            <h2>Dark Blue Tshirt</h2>
+            <h3>$25</h3>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="images/s1.jpg" alt="" />
+          <div class="details">
+            <h2>Printed Shirt</h2>
+            <h3>$35</h3>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="images/j1.webp" alt="" />
+          <div class="details">
+            <h2>Light Blue Jeans</h2>
+            <h3>$40</h3>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="images/sh1.jpeg" alt="" />
+          <div class="details">
+            <h2>Nike Jordon Sneakers</h2>
+            <h3>$60</h3>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="images/t2.webp" alt="" />
+          <div class="details">
+            <h2>Dark Blue Tshirt</h2>
+            <h3>$25</h3>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="images/w1.jpg" alt="" />
+          <div class="details">
+            <h2>Vintage Watch</h2>
+            <h3>$50</h3>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="images/s2.webp" alt="" />
+          <div class="details">
+            <h2>Denim Shirt</h2>
+            <h3>$50</h3>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="images/j2.jpg" alt="" />
+          <div class="details">
+            <h2>Black Jeans</h2>
+            <h3>$45</h3>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="images/sh2.jpeg" alt="" />
+          <div class="details">
+            <h2>Nike Sneakers</h2>
+            <h3>$80</h3>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="images/w2.jpg" alt="" />
+          <div class="details">
+            <h2>Rolex Watch</h2>
+            <h3>$100</h3>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="images/t3.jpg" alt="" />
+          <div class="details">
+            <h2>Black Tshirt</h2>
+            <h3>$45</h3>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="images/s3.webp" alt="" />
+          <div class="details">
+            <h2>Black Shirt</h2>
+            <h3>$40</h3>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="images/j3.jpg" alt="" />
+          <div class="details">
+            <h2>Light Blue Jeans</h2>
+            <h3>$55</h3>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="images/sh3.webp" alt="" />
+          <div class="details">
+            <h2>Nike Jordon Sneakers</h2>
+            <h3>$80</h3>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="images/w4.jpg" alt="" />
+          <div class="details">
+            <h2>Audemars Watch</h2>
+            <h3>$120</h3>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="images/t4.webp" alt="" />
+          <div class="details">
+            <h2>Adidas Tshirt</h2>
+            <h3>$35</h3>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="images/t5.jpg" alt="" />
+          <div class="details">
+            <h2>Adidas Tshirt</h2>
+            <h3>$50</h3>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="images/sh4.webp" alt="" />
+          <div class="details">
+            <h2>Nike Jordon Sneakers</h2>
+            <h3>$250</h3>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="images/sh5.webp" alt="" />
+          <div class="details">
+            <h2>Nike Sneakers</h2>
+            <h3>$200</h3>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="images/j4.jpg" alt="" />
+          <div class="details">
+            <h2>Jeans</h2>
+            <h3>$60</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
